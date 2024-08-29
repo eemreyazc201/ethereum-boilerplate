@@ -1,0 +1,12 @@
+{
+  "name": "ethereum-boilerplate",
+  "version": "1.0.0",
+  "author": "Emre YAZICI",
+  "license": "Unlicense",
+  "private": false,
+  "scripts": {
+    "start": "cd frontend && yarn dev && cd ..",
+    "deploy": "cd backend && yarn deploy && cd ..",
+    "server": "cd backend && yarn server && cd .."
+  }
+}
